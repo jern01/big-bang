@@ -22,6 +22,8 @@ def main():
     with open("output.json", "w") as f:
         json.dump(result, f, indent=2)
 
+    print(f"Wrote {len(result)} entries to output.json")
+
 
 if __name__ == "__main__":
     main()
